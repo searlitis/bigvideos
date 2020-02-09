@@ -1,6 +1,6 @@
 package main
 
-import "./loader"
+import "github.com/searlitis/bigvideos/loader"
 
 func main() {
 	loader.LoadToS3()

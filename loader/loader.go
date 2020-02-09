@@ -24,8 +24,8 @@ func LoadToS3() {
 			os.Args[0])
 	}
 
-	bucket := os.Args[0]
-	filename := os.Args[1]
+	bucket := os.Args[1]
+	filename := os.Args[2]
 
 	file, err := os.Open(filename)
 	if err != nil {
